@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build image dengan nama item-app dan tag v1
-docker build -t item-app:v1
+docker build -t item-app:v1 .
 
 # Melihat daftar image di lokal
 docker images
